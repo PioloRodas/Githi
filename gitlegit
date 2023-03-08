@@ -76,7 +76,7 @@ public class PigGame {
                     computerScore += computerRoll;
                 }
             }
-            System.out.print("GAME OVER!!!");
+            System.out.print("GAME OVER!");
             System.out.println();
             System.out.println("Final scores:");
             System.out.println("Player score: " + playerScore);
@@ -87,11 +87,10 @@ public class PigGame {
             } else if (computerScore >= 100) {
                 System.out.println("Sorry, the computer wins.");
             } else {
-                System.out.println("Game over.");
+                System.out.print("THANKS FOR PLAYING");
             }
             
         }
 
-        System.out.println("Thanks for playing!");
     }
 }
